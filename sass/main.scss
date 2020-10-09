@@ -3,7 +3,16 @@ html, body{
     width: 100%;
     height: 100%;
     background: black;
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
     color: white;
+}
+
+a:hover{
+    color: grey;
 }
 
 // #header{
@@ -66,12 +75,17 @@ html, body{
     .title{
         grid-area: title;
         text-align: center;
+        font-size: 3rem;
     }
 
     .project{
         grid-area: project;
         padding:1.5rem;
         place-self: center;
+
+        .link{
+            text-align: center;
+        }
     }
 
     .video{
