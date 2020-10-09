@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
 
 
 html, body{
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    background:#6a6464;
+    background:#1c3255;
     color: #ffffff;
     font-family: 'Playfair Display', serif;
 }
@@ -16,7 +17,7 @@ a{
 }
 
 a:hover{
-    color: grey;
+    color: rgb(144, 45, 168);
 }
 
 // #header{
@@ -80,6 +81,7 @@ a:hover{
         grid-area: title;
         text-align: center;
         font-size: 3rem;
+        text-decoration: underline;
     }
 
     .project{
@@ -87,9 +89,10 @@ a:hover{
         padding:1.5rem 2rem;
         place-self: center;
         width:60%;
-        font-size: 0.95rem;
+        font-size: 1.50rem;
         line-height:1.60rem;
         text-shadow: 0 1px 0 black;
+        font-family: 'Peddana', serif;
 
         .descrip{
             text-indent: 2rem;
@@ -110,6 +113,10 @@ a:hover{
 
         grid-area: video;
         place-self: center;
+
+        video{
+            box-shadow: 1px 1px 13px 2px rgba(0, 0, 0, .4);
+        }
 
     }
 
