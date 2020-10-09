@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+
 html, body{
     box-sizing: border-box;
     width: 100%;
     height: 100%;
     background:#6a6464;
     color: #ffffff;
+    font-family: 'Playfair Display', serif;
 }
 
 a{
@@ -83,6 +87,9 @@ a:hover{
         padding:1.5rem 2rem;
         place-self: center;
         width:60%;
+        font-size: 0.95rem;
+        line-height:1.60rem;
+        text-shadow: 0 1px 0 black;
 
         .descrip{
             text-indent: 2rem;
@@ -92,8 +99,9 @@ a:hover{
             text-align: center;
 
             span{
-                font-size: 1.75rem;
-                margin-left: 0.5rem;
+                display: block;
+                font-size: 3rem;
+                margin: 2rem 0.5rem;
             }
         }
     }
