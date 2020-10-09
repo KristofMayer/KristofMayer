@@ -53,6 +53,11 @@ a:hover {
   text-align: center;
 }
 
+#projects .project .link span {
+  font-size: 1.75rem;
+  margin-left: 0.5rem;
+}
+
 #projects .video {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
