@@ -68,7 +68,7 @@ a:hover{
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:10vh 50vh 40vh;
+    grid-template-rows:1fr 3fr 2fr;
     grid-template-areas: 
     
     "title title"
@@ -87,7 +87,7 @@ a:hover{
     .project{
         grid-area: project;
         padding:1.5rem 2rem;
-        place-self: center;
+        place-self: end;
         width:60%;
         font-size: 1.50rem;
         line-height:1.60rem;
@@ -131,7 +131,7 @@ a:hover{
         img{ 
             max-width: 20%;
             border: 3px solid white;
-            box-shadow: 7px 7px 47px -18px black;
+            box-shadow: 7px 7px 47px -12px rgba(0,0,0,0.6);
 
         }
 
@@ -155,7 +155,12 @@ a:hover{
 
 
     .project{
+        width: 100%;
         margin: 3rem 0;
+
+        .descrip{
+            padding: 0 3rem;
+        }
     }
 
     .video{
