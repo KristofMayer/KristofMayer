@@ -97,6 +97,7 @@ a:hover{
 
         grid-area: video;
         place-self: center;
+
     }
 
     .img{
@@ -104,12 +105,18 @@ a:hover{
         place-self: center;
         display: flex;
         justify-content: space-around;
+        width:70%;
+
         
-        img{
+        img{ 
             max-width: 20%;
             border: 3px solid white;
+            box-shadow: 7px 7px 47px -18px black;
+
         }
+
     }
+
 }
 
 @media screen and (max-width: 800px) {
