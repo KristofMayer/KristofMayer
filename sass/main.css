@@ -40,8 +40,13 @@ a:hover {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: project;
-  padding: 1.5rem;
+  padding: 1.5rem 2rem;
   place-self: center;
+  width: 60%;
+}
+
+#projects .project .descrip {
+  text-indent: 2rem;
 }
 
 #projects .project .link {

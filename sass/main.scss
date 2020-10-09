@@ -80,8 +80,13 @@ a:hover{
 
     .project{
         grid-area: project;
-        padding:1.5rem;
+        padding:1.5rem 2rem;
         place-self: center;
+        width:60%;
+
+        .descrip{
+            text-indent: 2rem;
+        }
 
         .link{
             text-align: center;
